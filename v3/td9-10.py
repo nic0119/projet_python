@@ -6,7 +6,7 @@ from datetime import datetime
 
 #Initialisation du corpus et du moteur de recherche
 corpus = Corpus("Corpus")
-corpus.load('E:/m1/pyt/projet3-10/corpus.csv')
+corpus.load('corpus.csv')
 search_engine = SearchEngine(corpus)
 
 #Fonction pour effectuer la recherche
