@@ -35,3 +35,8 @@ Ce projet consiste à développer un moteur de recherche en Python permettant :
    ```bash
    pip install -r requirements.txt
 
+3. **Lancer les différentes versions**
+   Pour lancer les différentes version de notre moteur de recherche, navigez dans les dossiers v1, v2 et v3 et choississez 
+   les fichiers main.py, pour v1 et v2. Pour v3 (td8), lancez td8.ipynb et la version finale de notre moteur de recherche : 
+   td9-10.py.
+
