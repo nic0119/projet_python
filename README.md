@@ -18,6 +18,20 @@ Ce projet consiste à développer un moteur de recherche en Python permettant :
 
 ## Installation et Utilisation
 
-1. **Installation des dépendances**  
+1. **Créer un environnement virtuel**  
+   - Sous Windows :  
+     ```bash
+     python -m venv env
+     env\Scripts\activate
+     ```  
+   - Sous macOS/Linux :  
+     ```bash
+     python3 -m venv env
+     source env/bin/activate
+     ```
+
+2. **Installation des dépendances**  
+   Une fois l'environnement activé, installez les dépendances avec :  
    ```bash
    pip install -r requirements.txt
+
