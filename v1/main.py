@@ -54,9 +54,9 @@ df.to_csv('data.csv', index=False, sep='\t')
 
 
 #Chargement des données enregistrées auparavant
-with open('E:/m1/pyt/projet/v1/data.csv', 'r') as a:
+with open('data.csv', 'r') as a:
     csvreader = csv.reader(a)
-df = pd.read_csv('E:/m1/pyt/projet/v1/data.csv', sep='\t')
+df = pd.read_csv('data.csv', sep='\t')
 
 #Taille du corpus
 print(len(df))
@@ -114,10 +114,10 @@ for i, doc in enumerate(collection):
 corpus = Corpus("Mon corpus")
 for doc in collection:
     corpus.add(doc)
-corpus.save('E:/m1/pyt/projet/v1/corpus.csv')
+corpus.save('corpus.csv')
 
 del corpus
 corpus = Corpus("Mon corpus")
-corpus.load('E:/m1/pyt/projet/v1/corpus.csv')
+corpus.load('corpus.csv')
 # print(corpus)
 # corpus.show(3,"123")
